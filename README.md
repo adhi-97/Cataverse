@@ -1,4 +1,4 @@
-# Product Catalog Management - Graphy Assessment 
+# Product Catalog Management - Graphy-Assessment
 
 This repository provides a RESTful API for managing a product catalog, including CRUD operations, filtering capabilities, and caching. Built with **Spring Boot**, it leverages **Redis** for caching and includes comprehensive logging and metrics for monitoring.  
 
@@ -29,7 +29,7 @@ This repository provides a RESTful API for managing a product catalog, including
        "name": "Product Name",
        "category": "Category",
        "price": 99.99,
-       "description": "Product Description"
+       "available": true
      }
      ```  
 
@@ -42,7 +42,7 @@ This repository provides a RESTful API for managing a product catalog, including
        "name": "Updated Product Name",
        "category": "Updated Category",
        "price": 149.99,
-       "description": "Updated Product Description"
+       "available": false
      }
      ```  
 
