@@ -1,4 +1,4 @@
-# Product Catalog Management
+# Cataverse: A Product Catalog Management System
 
 This repository provides a RESTful API for managing a product catalog, including CRUD operations, filtering capabilities, and caching. Built with **Spring Boot**, it leverages **Redis** for caching and includes comprehensive logging and metrics for monitoring.  
 
